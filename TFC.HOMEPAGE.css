@@ -417,7 +417,7 @@
 	    text-align: left;
         }
 
-        footer {
+        .futb {
             background-color: #333;
             color: white;
             text-align: center;
@@ -427,6 +427,6 @@
             transition: background-color 0.5s;
         }
 
-        footer:hover {
+        .futb:hover {
             background-color: #555;
         }
