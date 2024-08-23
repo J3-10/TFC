@@ -1,42 +1,287 @@
-        body {
+    	body {
             font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
+            margin: 0px 0px 0px 0px;
             background-color: #f4f4f4;
         }
 
         header {
-            background-color: #fff;
-            text-align: center;
-            padding: 1em;
-            margin-bottom: 20px;
-           
+            background-color: #FFF;
+            padding: .5px;
+	    margin: 0px 0px 0px 0px;
         }
 
         header a {
-            text-decoration: none;
-margin: 0 auto;
+	    margin: 0px 0px 0px 0px;
+        }
+	
+	.horizontal {
+	    list-style-type: none;
+	    overflow: hidden;
+	}
+
+	.pfli {
+	     float: left;
+	     margin: 50px 0px 0px 0px;
+	}
+
+	.pab {
+	    background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px 0px 0px 4px;
+            cursor: pointer;
+	    transition: background-color .5s;  
+	}
+
+	.pab:hover {
+            background-color: #555;
         }
 
-        header img {
-            max-width: 140px;
+	.pas {
+	    height: 27px;
+	    width: 34px;
+	    fill: #fff;
+	}
+
+	.psli {
+	    float: left;
+	    margin: 50px 0px 0px 0px;
+	}
+
+	.psb {
+	    background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 0px 4px 4px 0px;
+            font-size: 25px;
+            cursor: pointer;
+	    transition: background-color .5s;
+	}
+
+	.psb:hover {
+            background-color: #555;
+        }
+
+	/*	*/
+
+	.pcontainer {
+	    display: none;
+	    width: 205.5px;
+	    margin: 165px 0px 0px 0px;
+	    padding: 5px 5px 5px 5px;
+	    background-color: #fff;
+	    border-radius: 8px;
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	    justify-content: normal;
+	    text-align: center;
+	    overflow: visible;
+	    position: absolute;
+	}
+
+	.pwb {
+	background-color: rgb(255, 255, 255);
+	border: medium;
+	padding: 0px;
+	}
+
+	.pws {
+	display: block;
+	fill: none;
+	height: 48px;
+	width: 48px;
+	}
+
+	.pwsr {
+	fill: #25D366;
+	height: 56px;
+	rx: 28px;
+	width: 56px;
+	}
+
+	.pwsp {
+	fill: #fff;
+	fill-rule: evenodd;
+	clip-rule: evenodd;
+	}
+
+	.pmb {
+	background-color: rgb(255, 255, 255);
+	border: medium;
+	padding: 0px;
+	}
+
+	.pms{
+	display: block;
+	fill: none;
+	height: 48px; 
+	width: 48px;
+	}
+
+	.pmsr {
+	fill: #fff;
+	height: 56px;
+	rx: 28px;
+	width: 56px;
+	}
+
+	.pmsre {
+	height: 54px;
+	rx: 27.5px;
+	stroke: #767676;
+	stroke-opacity: .4px;
+	width: 54px;
+	x: .5px;
+	y: .5px;
+	}
+
+	.pmsp {
+	fill: url(#paint0_radial_3730_649_messenger);
+	}
+
+	.pmspa {
+	fill: #fff;
+	}
+
+	.pfb {
+	background-color: rgb(255, 255, 255);
+	border: medium;
+	padding: 0px;
+	}
+
+	.pfs {
+	display: block;
+	fill: none;
+	height: 48px;
+	width: 48px;
+	}
+
+	.pfsp {
+	fill: #1877F2;
+	}
+
+	.pfspa {
+	fill: #fff;
+	}
+
+	.ptb {
+	background-color: rgb(255, 255, 255);
+	border: medium;
+	padding: 0px;
+	}
+
+	.pts {
+	display: block;
+	fill: none;
+	height: 48px;
+	width: 48px;
+	}
+
+	.ptsr {
+	fill: #111111;
+	height: 56px;
+	rx: 28px;
+	width: 56px;
+	}
+
+	.ptsp {
+	fill: white;
+	}
+
+	/*	*/
+
+	.fbli {
+	    float: left;
+	    margin: 50px 0px 0px 140px;
+	}
+
+	.fbb {
+	    background-color: #333;
+	    border: none;
+	    cursor: pointer;
+	    border-radius: 4px;
+	    transition: background-color .5s;
+	}
+
+	.fbb:hover {
+            background-color: #555;
+        }
+
+	.fbs {
+	width: 180px;
+	height: 42px;
+	}
+
+	.fbsp {
+	fill: #fff;
+	}
+
+        .tfcli {
+            float: left;
+	}
+
+	.tfc {
+            width: 140px;
             height: auto;
+	    margin: 0px 0px 0px 74px;
+	    cursor: pointer;
+	    transition: background-color .5s;
         }
 
-        button {
+	.tfc:hover {
+            background-color: #f2f2f2;
+        }
+	
+	.igli {
+	    float: left;
+	    margin: 50px 0px 0px 82px;
+	}
+
+	.igb {
+	    background-color: #333;
+	    border: none;
+	    padding: 10px 20px 10px 20px;
+	    cursor: pointer;
+	    border-radius: 4px;
+	    transition: background-color .5s;
+	}
+
+	.igb:hover {
+            background-color: #555;
+        }
+
+	.igs {
+	height: 27px; 
+	width: 152px;
+	Fill: #fff;
+	}
+
+	.cli {
+	float: right;
+	margin: 50px 50px 0px 0px;
+	}
+
+        .cb {
             background-color: #333;
             color: white;
             padding: 10px 20px;
             border: none;
             border-radius: 4px;
-margin right: 120;
-top: 120;
-            font-size: 14px;
+            font-size: 25px;
             cursor: pointer;
         }
 
-        button:hover {
-            background-color: #555; /* Change background color on hover */
+        .cb:hover {
+            background-color: #555;
+        }
+
+	h1 {
+	    text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            color: #333;
         }
 
         .container {
@@ -44,83 +289,142 @@ top: 120;
             grid-template-columns: repeat(3, 1fr);
             max-width: 800px;
             margin: 0 auto;
+	    margin-bottom: 10px;
             padding: 20px;
-            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
             justify-content: center;
             text-align: center;
+	    background-color: #fff;
+	    background-image: url('https://j3-10.github.io/TFC/TOP_FINISH_COAT.PNG');
+	    background-size: contain;
+	    background-position: center;
+	    background-repeat: no-repeat;
         }
 
-        .column {
+	.intc {
             padding: 20px;
             margin-bottom: 20px;
         }
 
-        h1 {
-            font-size: 24px;
-            margin-top: 20px;
-            margin-bottom: 30px;
-            color: #333;
+        .intb {
+            font-size: 20px;
+            margin-bottom: 20px;
+	    background-color: #333;
+            color: white;
+            padding: 13px 65px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: center;
+	    margin: 0px 0px 0px 0px;
+	    transition: background-color .5s;
         }
 
-        h2 {
+        .intli {
+	    display: none;
+	    padding: 5px 0px 5px 25px;
+	    list-style: square;
+	    margin: 10px 0px 0px 0px;
+	    background-color: #333;
+	    border-radius: 6px;
+	}
+
+	.intb:hover {
+            background-color: #555;
+        }
+
+	.inti {
+	    color: #fff;
+            padding: none;
+	    margin: 10px 10px 14.60px 5px;
+	    text-align: left;
+	}
+
+	.extc {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+	
+	.extb {
             font-size: 20px;
-            color: #333;
+	    margin-bottom: 20px;
+	    background-color: #333;
+            color: white;
+            padding: 13px 62.5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: center;
+	    margin: 0px 0px 0px 0px;
+	    transition: background-color 0.5s;
+	}
+
+	.extb:hover {
+            background-color: #555;
+        }
+
+        .extli {
+	    display: none;
+	    background-color: #333;
+	    padding: 5px 0px 5px 25px;
+	    list-style: square;
+	    margin: 10px 0px 0px 0px;
+	    border-radius: 6px;
+	}
+
+	.exti {
+	    color: #fff;
+            padding: none;
+	    margin: 10px 10px 12.79px 5px;
+	    text-align: left;
+        }
+
+	.wcc {
+            padding: 20px;
             margin-bottom: 20px;
         }
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .map iframe {
-            width: 100%;
-            height: 300px;
-            border: 0;
-            border-radius: 8px;
-        }
-
-        .contact-form {
-            margin-bottom: 40px;
-        }
-
-        .contact-form form {
-            display: grid;
-            gap: 10px;
-        }
-
-        .contact-form label {
-            font-weight: bold;
-            color: #333;
-        }
-
-        .contact-form input,
-        .contact-form textarea,
-        .contact-form button {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #333;
+	.wcb {
+	    font-size: 19.63px;
+            margin-bottom: 20px;
+	    background-color: #333;
+            color: white;
+            padding: 13px 20px;
+            border: none;
             border-radius: 4px;
-            box-sizing: border-box;
-            font-size: 10px;
+            cursor: pointer;
+            float: center;
+	    margin: 0px 0px 0px 0px;
+	    text-align: left;
+	}
+
+
+        .wcli {
+	    background-color: #333;
+	    padding: 5px 0px 5px 25px;
+	    list-style: square;
+	    margin: 10px 0px 0px 0px;
+	    background-color: #333;
+	    border-radius: 6px;
+	}
+
+	.wci {
+	    color: #fff;
+            padding: none;
+	    margin: 10px 10px 10px 5px;
+	    text-align: left;
         }
 
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 1em;
-            position: fixed;
+            padding: 20px 0px 20px 0px;
             bottom: 0;
             width: 100%;
-            transition: background-color 0.3s;
+            transition: background-color 0.5s;
         }
 
         footer:hover {
